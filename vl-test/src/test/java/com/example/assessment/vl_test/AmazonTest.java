@@ -12,7 +12,7 @@ public class AmazonTest {
 	
 	@Test
 	public void setup() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/saipa/Downloads/vl-test/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/vl-test/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
