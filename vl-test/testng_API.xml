@@ -1,0 +1,10 @@
+<suite name="Automation Test Suite">
+    <listeners>
+        <listener class-name="com.example.assessment.vl_test.CustomTestListener"/>
+    </listeners>
+    <test name="Add New Device Tests">
+        <classes>
+            <class name="com.example.assessment.vl_test.AddNewDeviceTest" />
+        </classes>
+    </test>
+</suite>

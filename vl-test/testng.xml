@@ -1,0 +1,10 @@
+<suite name="Automation Test Suite">
+    <listeners>
+        <listener class-name="com.example.assessment.vl_test.CustomTestListener"/>
+    </listeners>
+    <test name="AmazonShoppingTest">
+        <classes>
+            <class name="com.example.assessment.vl_test.AmazonTest"/>
+        </classes>
+    </test>
+</suite>
